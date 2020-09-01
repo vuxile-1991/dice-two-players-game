@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dice Game</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+</head>
+
+<body onload="namePlayer();">
+
+  <div class="container">
+    <div class="heading">
+      <h1 onclick="rollDice()">Roll The Dice</h1>
+    </div>
+<div class="leftResult res">
+  <label></label>
+</div>
+    <div class="dice">
+      <p>Player 1</p>
+      <div class="leftDice">
+        <img class="img1" src="./images/dice6.png">
+      </div>
+    </div>
+
+    <div class="dice">
+      <p>Player 2</p>
+      <div class="rightDice">
+        <img class="img2" src="./images/dice6.png">
+      </div>
+    </div>
+    <div class="rightResult res">
+      <label></label>
+    </div>
+  </div>
+
+  <div class="btn">
+    <button class="changeNames-btn" type="button" name="button">Change names</button>
+  </div>
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+<footer>
+  <a href="https://github.com/vuxile-1991">https:// 🎲 github.com 🎲 /vuxile-1991</a>
+</footer>
+
+</html>

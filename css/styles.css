@@ -1,0 +1,200 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.btn {
+  text-align: center;
+}
+
+.btn button {
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  background: #FAF1D8;
+  margin-top: 50px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-shadow: 2px 0 #232931;
+}
+
+.res {
+  display: inline-block;
+  width: 256px;
+  height: 208.8px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #EEEEEE;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+  cursor: pointer;
+  transition: transform .2s ease;
+  user-select: none;
+}
+
+h1:active {
+  transform: scale(1.1);
+}
+
+label {
+  font-size: 10rem;
+  color: #EEEEEE;
+  font-family: 'Indie Flower', cursive;
+  font-weight: 900;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+  text-transform: uppercase;
+  user-select: none;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+@media only screen and (max-width: 1515px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .dice {
+    width: 20%;
+  }
+
+  .heading {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 1282px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .dice {
+    width: 20%;
+  }
+
+  .res {
+    width: 156px;
+    height: 108.8px;
+  }
+
+  .heading {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  label {
+    font-size: 7rem;
+  }
+
+  .dice {
+    width: 20%;
+  }
+
+  .heading {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 806px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  label {
+    font-size: 7rem;
+  }
+
+  .dice {
+    width: 20%;
+  }
+
+  .res {
+    width: 106px;
+    height: 58.8px;
+  }
+
+  .heading {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 806px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  label {
+    font-size: 7rem;
+  }
+
+  .dice {
+    width: 20%;
+  }
+
+  .res {
+    width: 86px;
+    height: 38.8px;
+  }
+
+  .heading {
+    height: 300px;
+  }
+}
