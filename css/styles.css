@@ -9,6 +9,7 @@
   display: inline-block;
 }
 
+
 .btn {
   text-align: center;
 }
@@ -30,6 +31,10 @@
   width: 256px;
   height: 208.8px;
   text-align: center;
+}
+
+.reload {
+  margin: 0 43%;
 }
 
 a {
@@ -56,11 +61,28 @@ h1:active {
   transform: scale(1.1);
 }
 
+h3 {
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  text-align: center;
+  font-size: 4rem;
+  color: #4ECCA3;
+  cursor: pointer;
+  transition: transform .2s ease;
+  user-select: none;
+  visibility: hidden;
+}
+
+h3:active {
+  transform: scale(1.1);
+}
+
 label {
   font-size: 10rem;
   color: #EEEEEE;
   font-family: 'Indie Flower', cursive;
   font-weight: 900;
+  user-select: none;
 }
 
 p {
@@ -172,7 +194,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 806px) {
+@media only screen and (max-width: 750px) {
   h1 {
     font-size: 4rem;
   }
