@@ -227,7 +227,11 @@ footer {
     }
 
   .container{
-    padding-top: 40%;
+    padding-top: 20%;
+  }
+
+  .dice {
+    width: 40%;
   }
 }
 }
