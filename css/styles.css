@@ -222,16 +222,8 @@ footer {
 
   @media only screen and (max-width: 385px) {
 
-    p {
-      font-size: 5rem;
-    }
-
-  .container{
-    padding-top: 20%;
+  .heading {
+    margin-top: 50%;
   }
 
-  .dice {
-    width: 40%;
-  }
-}
 }
