@@ -1,5 +1,5 @@
 .container {
-  width: 70%;
+  width: 100%;
   margin: auto;
   text-align: center;
 }
@@ -123,107 +123,29 @@ footer {
 }
 
 @media only screen and (max-width: 1282px) {
-  h1 {
-    font-size: 4rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-
-  .dice {
-    width: 20%;
-  }
 
   .res {
     width: 156px;
     height: 108.8px;
   }
-
-  .heading {
-    height: 300px;
-  }
 }
 
 @media only screen and (max-width: 992px) {
-  h1 {
-    font-size: 4rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-
   label {
     font-size: 7rem;
-  }
-
-  .dice {
-    width: 20%;
-  }
-
-  .heading {
-    height: 300px;
   }
 }
 
 @media only screen and (max-width: 806px) {
-  h1 {
-    font-size: 4rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-
-  label {
-    font-size: 7rem;
-  }
-
-  .dice {
-    width: 20%;
-  }
-
   .res {
     width: 106px;
     height: 58.8px;
   }
-
-  .heading {
-    height: 300px;
-  }
 }
 
 @media only screen and (max-width: 750px) {
-  h1 {
-    font-size: 4rem;
-  }
-
-  p {
-    font-size: 1rem;
-  }
-
-  label {
-    font-size: 7rem;
-  }
-
-  .dice {
-    width: 20%;
-  }
-
   .res {
     width: 86px;
     height: 38.8px;
   }
-
-  .heading {
-    height: 300px;
-  }
-
-  @media only screen and (max-width: 500px) {
-
-  .heading {
-    margin-top: 50%;
-  }
-
 }
