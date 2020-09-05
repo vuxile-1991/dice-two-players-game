@@ -2,6 +2,7 @@
   width: 100%;
   margin: auto;
   text-align: center;
+  user-select: none;
 }
 
 .dice {
@@ -65,6 +66,7 @@ h3 {
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   text-align: center;
+  margin: 20px 0 10px 0;
   font-size: 4rem;
   color: #4ECCA3;
   cursor: pointer;
@@ -78,7 +80,7 @@ h3:active {
 }
 
 label {
-  font-size: 10rem;
+  font-size: 18rem;
   color: #EEEEEE;
   font-family: 'Indie Flower', cursive;
   font-weight: 900;
@@ -86,7 +88,7 @@ label {
 }
 
 p {
-  font-size: 2rem;
+  font-size: 4rem;
   color: #4ECCA3;
   font-family: 'Indie Flower', cursive;
   text-transform: uppercase;
@@ -105,12 +107,14 @@ footer {
 }
 
 @media only screen and (max-width: 1515px) {
+
   h1 {
     font-size: 4rem;
   }
 
   p {
-    font-size: 1rem;
+    font-size: 4rem;
+    margin-top: 60px;
   }
 
   .dice {
@@ -118,34 +122,90 @@ footer {
   }
 
   .heading {
-    height: 300px;
+    height: 50px;
+  }
+
+  .btn button {
+      margin: 50px;
   }
 }
 
-@media only screen and (max-width: 1282px) {
-
-  .res {
-    width: 156px;
-    height: 108.8px;
+@media only screen and (max-width: 1399px) {
+  .reload {
+    margin: 0;
   }
-}
+
+  label {
+    font-size: 14rem;
+  }
+  }
+
+  @media only screen and (max-width: 1170px) {
+    p {
+      font-size: 3rem;
+    }
+
+    label {
+      font-size: 15rem;
+    }
+    }
 
 @media only screen and (max-width: 992px) {
+  .res {
+    width: 166px;
+    height: 118.8px;
+  }
   label {
-    font-size: 7rem;
+    font-size: 13rem;
   }
 }
 
-@media only screen and (max-width: 806px) {
+@media only screen and (max-width: 907px) {
   .res {
-    width: 106px;
-    height: 58.8px;
+    width: 146px;
+    height: 98.8px;
+  }
+  p {
+    font-size: 3rem;
+  }
+
+  label {
+    font-size: 12rem;
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 795px) {
   .res {
-    width: 86px;
-    height: 38.8px;
+    width: 126px;
+    height: 78.8px;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+
+  label {
+    font-size: 10rem;
+  }
+}
+
+@media only screen and (max-width: 636px) {
+  .heading {
+    margin-bottom: 100px;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  label {
+    font-size: 6rem;
+  }
+  p {
+    font-size: 1.7rem;
+  }
+  label {
+    font-size: 8rem;
   }
 }

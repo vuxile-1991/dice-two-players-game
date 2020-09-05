@@ -8,16 +8,24 @@
   <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
 
 </head>
-
+<!--Loads namePlayer function and asks for inputs-->
 <body onload="namePlayer();">
 
+
+<!--Container wrapping all the elements-->
   <div class="container">
+
+    <!--Heading for rolling the dice and the winner-->
     <div class="heading">
       <h1 onclick="rollDice()">Roll The Dice</h1>
     </div>
+
+    <!--Left side result-->
 <div class="leftResult res">
   <label></label>
 </div>
+
+<!--Left dice picture with player caption above-->
     <div class="dice">
       <p>Player 1</p>
       <div class="leftDice">
@@ -25,20 +33,26 @@
       </div>
     </div>
 
+<!--Right dice picture with player caption above-->
     <div class="dice">
       <p>Player 2</p>
       <div class="rightDice">
         <img class="img2" src="./images/dice6.png">
       </div>
     </div>
+
+    <!--Right side result-->
     <div class="rightResult res">
       <label></label>
     </div>
   </div>
 
+<!--Button for changing names and startig over-->
   <div class="btn">
     <button onclick="btnChangeNames();" class="changeNames-btn" type="button" name="button">Change names</button>
   </div>
+
+  <!--h3 button  to refresh the game when the winner is announced-->
   <div class="reload">
   <h3 onclick="btnChangeNames();">Refresh</h3>
   </div>
