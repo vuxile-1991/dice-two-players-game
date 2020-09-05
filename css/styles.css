@@ -204,8 +204,10 @@ footer {
   }
   p {
     font-size: 1.7rem;
-  }
-  label {
-    font-size: 8rem;
-  }
+}
+
+@media only screen and (max-width: 499px) {
+html {
+  margin-top: 500px;
+}
 }
